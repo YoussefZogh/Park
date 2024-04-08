@@ -12,7 +12,7 @@
 Le projet PARK vise à développer un jeu de gestion d'un parc d'attractions. Le joueur aura la possibilité de construire et de gérer son propre parc, en configurant les attractions, les services et les différents aspects du parc. Le jeu s'adressera aux adultes et aux enfants, et proposera une expérience de jeu à la fois divertissante et stimulante.
 				
 				
-## Explication de nos motivations pour lesquelles nous avez choisi ce projet  :
+## Explication des motivations pour lesquelles nous avons choisi ce projet  :
 			
 Ce projet a été choisi pour plusieurs raisons :
 *Passion pour les parcs d’attractions :* Nous sommes tous fans de parcs d'attractions et nous sommes enthousiasmés à l'idée de créer notre propre univers de jeu.
@@ -57,7 +57,9 @@ Le jeu devra être accessible aux adultes et aux enfants.
 
 		
 ## 4. Diagramme de cas d'utilisation
-		
+![image](https://github.com/YoussefZogh/Park/assets/154493731/ed46b634-dc0e-40fa-8676-39b1b089c9cb)
+
+
 		
 ## 5. Les Priorités des cas d’utilisation
 *Le cas d’utilisation le plus prioritaire est la création des attractions.*
@@ -93,14 +95,9 @@ Le jeu devra être accessible aux adultes et aux enfants.
 ---|---|1|2|3|4|5|
 ---|---|---|---|---|---|---|
 Pré-réquis|1|F|T|T|T|T|
----|---|---|---|---|---|---|
 Pré-réquis|2|---|F|T|T|T|
----|---|---|---|---|---|---|
 Pré-réquis|3|---|---|F|T|T|
----|---|---|---|---|---|---|
  Post-conditions|4|F|F|F|T|T|
----|---|---|---|---|---|---|
  Post-conditions|5|F|F|F|F|T|
----|---|---|---|---|---|---|
 ---|Nombre de test|1|1|1|1|2|
 
