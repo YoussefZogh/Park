@@ -92,12 +92,14 @@ Le jeu devra être accessible aux adultes et aux enfants.
 
 ### Tableau de vérification des conditions :
 
----|---|1|2|3|4|5|
----|---|---|---|---|---|---|
-Pré-réquis|1|F|T|T|T|T|
-Pré-réquis|2|---|F|T|T|T|
-Pré-réquis|3|---|---|F|T|T|
- Post-conditions|4|F|F|F|T|T|
- Post-conditions|5|F|F|F|F|T|
----|Nombre de test|1|1|1|1|2|
+|                       | 1 | 2 | 3 | 4 | 5 | 
+|-----------------------|---|---|---|---|---|
+| *Précondition*      |   |   |   |   |   |   
+| L'utilisateur est authentifié et a le droit d'ajouter des attractions. | F | T | T | T | T | 
+| Les informations de l'attraction sont valides et complètes.|  | F | T | T | T | 
+| Les informations de l'attraction sont valides et complètes. |   |   | F | T  | T| 
+| *Postcondition*     |   |   |   |   |   |   
+| Les informations de l'attraction sont valides et complètes.| F | F | F | T | T  | 
+| Un message de confirmation est affiché à l'utilisateur.| F | F | F | F | T| 
+| *Nombre de jeu de test* | 1 | 1 | 1 | 1 | 2 | 
 
